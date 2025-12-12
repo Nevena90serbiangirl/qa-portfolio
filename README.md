@@ -98,6 +98,10 @@ The focus is on:
 
 ### 03-automation
 - (Basic automation structure – work in progress)
+- 03-automation
+- Selenium WebDriver basics (learning in progress)
+- Page Object Model – basic structure
+
 
 ### 04-performance-testing
 - (Performance testing fundamentals – JMeter)
@@ -122,6 +126,8 @@ The focus is on:
 - SQL (MySQL)
 - JMeter (basic)
 - Git & GitHub
+- Test design techniques (positive/negative, boundary values – basics)
+
 
 ---
 
