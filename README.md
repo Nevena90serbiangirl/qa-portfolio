@@ -66,3 +66,63 @@ Ovaj repozitorijum prikazuje praktične zadatke i projekte koje sam radila tokom
 
 Hvala što ste pogledali moj portfolio. 😊  
 Otvorena sam za praksu i junior QA pozicije, kao i za dalje učenje i mentorstvo.
+
+# QA Portfolio – Nevena Suknović
+
+This repository contains my QA portfolio, created to demonstrate fundamental skills required for a Junior QA Tester position.
+
+The focus is on:
+- Manual testing and test design
+- API testing (REST and SOAP)
+- Bug reporting
+- Basic SQL data validation
+- Use of industry-standard QA tools
+
+---
+
+## 📁 Project Structure
+
+### 01-manual-testing
+- Login test cases (positive and negative scenarios)
+- Bug reports with severity, priority, steps, expected vs actual results
+
+### 02-api-testing
+- REST API testing using Postman
+- GET and POST requests
+- Status code validation
+- Response structure verification
+- Postman test scripts (JavaScript)
+
+### 03-automation
+- (Basic automation structure – work in progress)
+
+### 04-performance-testing
+- (Performance testing fundamentals – JMeter)
+
+### 05-soap-wsdl-testing
+- SOAP service testing
+- WSDL analysis
+- XML request and response validation
+
+### 06-rest-flask-service
+- Basic REST service testing (Flask-based)
+
+### 07-sql-database
+- SQL queries for data validation
+- SELECT, WHERE, INSERT, UPDATE basics
+
+---
+
+## 🛠 Tools & Technologies
+- Manual testing techniques
+- Postman (REST & SOAP)
+- SQL (MySQL)
+- JMeter (basic)
+- Git & GitHub
+
+---
+
+## 🎯 Goal
+To start my career as a Junior QA Tester where I can apply my testing knowledge, grow professionally, and contribute to software quality.
+
+
