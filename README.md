@@ -1,5 +1,8 @@
 # QA Portfolio – Nevena Suknović
 
+Junior QA Tester focused on manual testing, API testing (REST & SOAP), and test design.
+
+
 Dobrodošli u moj QA portfolio. 👋  
 Ja sam **Nevena**, sertifikovani QA tester (ITAcademy) sa fokusom na:
 - ručno testiranje
