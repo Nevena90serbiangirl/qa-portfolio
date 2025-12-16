@@ -1,88 +1,179 @@
 # Manual Testing – Login Test Cases
+TC-LOGIN-01
 
-**Feature:** Login  
-**Type:** Functional / UI  
-**Priority:** High
+Title: Successful login with valid credentials
+Priority: High
 
-## Preconditions
-- User is on the Login page
-- Test environment is available
+Steps:
 
-## Test Cases
+Open login page
 
-### TC-LOGIN-001 – Valid login
-**Priority:** High  
-**Steps:**
-1. Enter valid email
-2. Enter valid password
-3. Click **Login**
-**Expected result:**
-- User is logged in successfully
-- User is redirected to dashboard/home
-- Session/token is created
+Enter valid email
 
-### TC-LOGIN-002 – Invalid password
-**Priority:** High  
-**Steps:**
-1. Enter valid email
-2. Enter invalid password
-3. Click **Login**
-**Expected result:**
-- Error message is displayed (e.g., “Invalid credentials”)
-- User stays on login page
-- No session/token created
+Enter valid password
 
-### TC-LOGIN-003 – Invalid email format
-**Priority:** Medium  
-**Steps:**
-1. Enter invalid email format (e.g., test@)
-2. Enter any password
-3. Click **Login**
-**Expected result:**
-- Validation message is shown (email format)
-- Login request is not sent (or is rejected)
-- User stays on login page
+Click Login button
 
-### TC-LOGIN-004 – Empty fields
-**Priority:** High  
-**Steps:**
-1. Leave email empty
-2. Leave password empty
-3. Click **Login**
-**Expected result:**
-- Required field validation messages shown
-- No login attempt performed
+Expected Result:
+User is successfully logged in and redirected to the dashboard.
 
-### TC-LOGIN-005 – Only email entered
-**Priority:** Medium  
-**Steps:**
-1. Enter email
-2. Leave password empty
-3. Click **Login**
-**Expected result:**
-- Password required validation is shown
+TC-LOGIN-02
 
-### TC-LOGIN-006 – Only password entered
-**Priority:** Medium  
-**Steps:**
-1. Leave email empty
-2. Enter password
-3. Click **Login**
-**Expected result:**
-- Email required validation is shown
+Title: Login attempt with invalid password
+Priority: High
 
-### TC-LOGIN-007 – Password masked
-**Priority:** Low  
-**Steps:**
-1. Type password into password field
-**Expected result:**
-- Characters are masked (•••••)
+Steps:
 
-### TC-LOGIN-008 – Enter key submits form
-**Priority:** Low  
-**Steps:**
-1. Fill valid email and password
-2. Press **Enter**
-**Expected result:**
-- Same behavior as clicking Login (successful login)
+Open login page
+
+Enter valid email
+
+Enter invalid password
+
+Click Login
+
+Expected Result:
+Error message is displayed indicating incorrect credentials. User remains on login page.
+
+TC-LOGIN-03
+
+Title: Login attempt with non-existing email
+Priority: High
+
+Steps:
+
+Open login page
+
+Enter non-registered email
+
+Enter any password
+
+Click Login
+
+Expected Result:
+Error message is displayed. Login is not successful.
+
+TC-LOGIN-04
+
+Title: Login with empty email field
+Priority: Medium
+
+Steps:
+
+Open login page
+
+Leave email field empty
+
+Enter valid password
+
+Click Login
+
+Expected Result:
+Validation message is displayed indicating email is required.
+
+TC-LOGIN-05
+
+Title: Login with empty password field
+Priority: Medium
+
+Steps:
+
+Open login page
+
+Enter valid email
+
+Leave password field empty
+
+Click Login
+
+Expected Result:
+Validation message is displayed indicating password is required.
+
+TC-LOGIN-06
+
+Title: Login with both fields empty
+Priority: Medium
+
+Steps:
+
+Open login page
+
+Leave email field empty
+
+Leave password field empty
+
+Click Login
+
+Expected Result:
+Validation messages are displayed for both email and password fields.
+
+TC-LOGIN-07
+
+Title: Login with invalid email format
+Priority: Medium
+
+Steps:
+
+Open login page
+
+Enter email without “@” symbol
+
+Enter valid password
+
+Click Login
+
+Expected Result:
+Validation message is displayed indicating invalid email format.
+
+TC-LOGIN-08
+
+Title: Login with password containing special characters
+Priority: Medium
+
+Steps:
+
+Open login page
+
+Enter valid email
+
+Enter password containing special characters (!@#$)
+
+Click Login
+
+Expected Result:
+System processes input correctly and logs in user if credentials are valid.
+
+TC-LOGIN-09
+
+Title: Multiple failed login attempts
+Priority: High
+
+Steps:
+
+Open login page
+
+Enter valid email
+
+Enter invalid password
+
+Click Login
+
+Repeat steps 2–4 five times
+
+Expected Result:
+Account is temporarily locked or warning message is displayed according to system rules.
+
+TC-LOGIN-10
+
+Title: Login button disabled when mandatory fields are empty
+Priority: Low
+
+Steps:
+
+Open login page
+
+Leave email and password fields empty
+
+Expected Result:
+Login button is disabled or system prevents login attempt.
 
