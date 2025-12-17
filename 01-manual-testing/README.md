@@ -4,6 +4,8 @@
 ## Overview
 This project demonstrates manual testing of an authentication module, focusing on **login and registration functionality**.  
 The goal is to validate core business logic, input validation, and error handling from a QA Engineer perspective.
+Basic security-related scenarios, such as brute-force protection, were also evaluated from a QA perspective.
+
 
 This module was tested as part of a QA portfolio aimed at **Junior QA / Internship positions**.
 
