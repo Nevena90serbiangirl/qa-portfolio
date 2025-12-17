@@ -7,7 +7,8 @@ No error message displayed for incorrect password during login
 ### Environment
 - OS: Windows 10
 - Browser: Google Chrome (latest)
-- Environment: Staging
+- Environment: Demo application (Staging-like environment)
+
 
 ### Preconditions
 - User account exists
