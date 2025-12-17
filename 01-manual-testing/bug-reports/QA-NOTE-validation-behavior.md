@@ -1,35 +1,22 @@
-### Bug ID
-BUG-01
+# QA Note – Login Validation Behavior
 
-### Title
-Login button remains disabled when password contains special characters
+## Scenario Description
+This scenario was tested to verify whether the login button remains disabled
+after correcting an invalid email input on the login page.
 
-### Environment
-- OS: Windows 10
-- Browser: Google Chrome (latest)
-- Environment: Staging
+## Test Result
+The issue could not be reproduced.
 
-### Preconditions
-- User account exists
-- User is on login page
+After correcting the email to a valid format and providing a password,
+the login button became enabled and the form could be submitted.
 
-### Steps to Reproduce
-1. Open login page
-2. Enter valid email address
-3. Enter valid password containing special characters (e.g. P@ssw0rd!)
-4. Observe the Login button state
+## Conclusion
+The system behaved as expected.
 
-### Expected Result
-Login button becomes enabled and user can submit login form.
+This confirms that client-side validation state is properly reset once valid
+input is provided.
 
-### Actual Result
-Login button remains disabled and login cannot be submitted.
+## Notes
+This scenario was intentionally not reported as a bug, as no incorrect system
+behavior was observed.
 
-### Severity
-Major
-
-### Priority
-High
-
-### Notes
-This issue blocks users with valid passwords from logging in.
