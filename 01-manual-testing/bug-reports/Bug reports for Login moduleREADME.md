@@ -10,3 +10,4 @@ Each bug report includes:
 
 The reported issues cover functional, usability, and security-related scenarios and demonstrate standard QA defect reporting practices used in real-world projects.
 
+Some of the reported issues highlight potential security risks, such as missing protection against brute-force login attempts.
