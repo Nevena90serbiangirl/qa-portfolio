@@ -17,3 +17,10 @@ This folder contains examples of API testing performed using **Postman**.
 ## Tools
 - Postman
 - JavaScript (Postman test scripts)
+
+
+This module demonstrates basic API testing using Postman.
+It includes simple GET and POST requests with response validation,
+status code checks, and basic structure verification.
+Public APIs (Reqres and JSONPlaceholder) were used for testing purposes.
+
