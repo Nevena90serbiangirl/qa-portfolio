@@ -72,6 +72,10 @@ This folder contains the following QA documentation and artifacts:
   - Expected vs actual results
   - Severity and priority
   - Supporting screenshots (where applicable)
+  - This module covers manual testing of the Login functionality, including functional, validation, usability, and basic security scenarios.  
+Test cases, bug reports, and QA notes demonstrate real-world QA practices such as defect identification, verification, and differentiation between actual bugs and expected behavior.  
+The focus is on clear documentation, reproducibility, and quality-driven analysis.
+
 
 ---
 
