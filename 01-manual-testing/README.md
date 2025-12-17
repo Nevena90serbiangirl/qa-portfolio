@@ -17,6 +17,9 @@ Web-based application providing user authentication features:
 - User registration
 - Input validation
 - Error handling
+- Publicly available web-based login page used solely for demonstration and testing purposes:
+https://id.heroku.com/login
+
 
 ---
 
@@ -117,6 +120,8 @@ This ensures clear communication with developers and efficient issue resolution.
 ## Notes
 This project represents **QA thinking and documentation style used in real-world projects**.  
 It focuses on clarity, traceability, and practical testing scenarios rather than academic examples.
+The application was used as a publicly accessible demo login page for QA practice purposes only.
+
 
 ---
 
