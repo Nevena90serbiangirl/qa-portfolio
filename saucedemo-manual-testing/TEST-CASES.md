@@ -12,7 +12,7 @@
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
 | TC-001 | Open the application, enter valid credentials, select **Login**. | Inventory page opens and products are visible. | High | **Passed** — [Evidence](evidence/TC-001-login-success.png) |
-| TC-002 | Enter an invalid username with the valid password and select **Login**. | Login is rejected and a clear error is displayed. | High | Not Run |
+| TC-002 | Enter an invalid username with the valid password and select **Login**. | Login is rejected and a clear error is displayed. | High | **Passed** — [Evidence](evidence/TC-002-invalid-username.png) |
 | TC-003 | Enter the valid username with an invalid password and select **Login**. | Login is rejected and a clear error is displayed. | High | Not Run |
 | TC-004 | Leave both fields empty and select **Login**. | Required username validation is displayed. | High | Not Run |
 | TC-005 | Enter a username, leave password empty, and select **Login**. | Required password validation is displayed. | High | Not Run |

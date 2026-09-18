@@ -7,6 +7,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | Test Case | Result | Date | Evidence |
 |---|---|---|---|
 | TC-001 — Successful login | Passed | 2026-09-18 | [View screenshot](TC-001-login-success.png) |
+| TC-002 — Invalid username | Passed | 2026-09-18 | [View screenshot](TC-002-invalid-username.png) |
 
 ## Naming Convention
 

@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 1 |
-| Passed | 1 |
+| Executed | 2 |
+| Passed | 2 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 37 |
+| Not Run | 36 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -32,6 +32,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 
 - Valid login flow completed successfully (TC-001).
 - Inventory page and product list were displayed after authentication.
+- Invalid username was rejected with a clear error message (TC-002).
 
 ## Defect Summary
 
