@@ -9,6 +9,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-001 — Successful login | Passed | 2026-09-18 | [View screenshot](TC-001-login-success.png) |
 | TC-002 — Invalid username | Passed | 2026-09-18 | [View screenshot](TC-002-invalid-username.png) |
 | TC-003 — Invalid password | Passed | 2026-09-18 | [View screenshot](TC-003-invalid-password.png) |
+| TC-004 — Empty login fields | Passed | 2026-09-18 | [View screenshot](TC-004-empty-fields.png) |
 
 ## Naming Convention
 

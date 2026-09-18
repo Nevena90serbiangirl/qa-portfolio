@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 3 |
-| Passed | 3 |
+| Executed | 4 |
+| Passed | 4 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 35 |
+| Not Run | 34 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -34,6 +34,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Inventory page and product list were displayed after authentication.
 - Invalid username was rejected with a clear error message (TC-002).
 - Invalid password was rejected with a clear error message (TC-003).
+- Empty login fields triggered the required username validation (TC-004).
 
 ## Defect Summary
 
