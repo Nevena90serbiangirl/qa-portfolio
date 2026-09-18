@@ -41,4 +41,4 @@ Test design is complete. Manual execution and evidence collection are in progres
 
 ---
 
-This repository is dedicated exclusively to manual software testing. My automation practice is maintained separately.
+This repository is dedicated exclusively to manual software testing.
