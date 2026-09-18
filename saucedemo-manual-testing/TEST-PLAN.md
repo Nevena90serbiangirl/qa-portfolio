@@ -27,7 +27,6 @@ The purpose of this test plan is to define the scope, approach, resources, evide
 ## 4. Out of Scope
 
 - API testing
-- Test automation
 - Performance and load testing
 - Security penetration testing
 - Database validation
