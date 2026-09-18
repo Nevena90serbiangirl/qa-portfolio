@@ -1,6 +1,12 @@
 # Test Evidence
 
-Screenshots will be added during manual execution.
+Screenshots are added during manual execution and linked to the corresponding test cases.
+
+## Recorded Evidence
+
+| Test Case | Result | Date | Evidence |
+|---|---|---|---|
+| TC-001 — Successful login | Passed | 2026-09-18 | [View screenshot](TC-001-login-success.png) |
 
 ## Naming Convention
 

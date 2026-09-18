@@ -50,9 +50,9 @@ The following areas are included:
 ## Execution Status
 
 - Test design: Complete
-- Test execution: Not started
+- Test execution: In progress (1 of 38 test cases completed)
 - Confirmed defects: None recorded yet
-- Evidence collection: Not started
+- Evidence collection: In progress
 
 Results will be updated only after manual execution. Intended application behaviour will not be reported as a defect.
 

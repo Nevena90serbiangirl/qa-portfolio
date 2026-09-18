@@ -5,13 +5,13 @@
 - Valid username: `standard_user`
 - Locked username: `locked_out_user`
 - Password: `secret_sauce`
-- Valid checkout data: Nevena / Suknovic / 11000
+- Valid checkout data: Test / User / 11000
 
 ## Login
 
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| TC-001 | Open the application, enter valid credentials, select **Login**. | Inventory page opens and products are visible. | High | Not Run |
+| TC-001 | Open the application, enter valid credentials, select **Login**. | Inventory page opens and products are visible. | High | **Passed** — [Evidence](evidence/TC-001-login-success.png) |
 | TC-002 | Enter an invalid username with the valid password and select **Login**. | Login is rejected and a clear error is displayed. | High | Not Run |
 | TC-003 | Enter the valid username with an invalid password and select **Login**. | Login is rejected and a clear error is displayed. | High | Not Run |
 | TC-004 | Leave both fields empty and select **Login**. | Required username validation is displayed. | High | Not Run |

@@ -2,35 +2,36 @@
 
 ## Report Status
 
-**Pending manual execution**
+**Execution in progress**
 
-This report is prepared in advance and will be completed after the planned test cases have been executed.
+Manual execution started on 2026-09-18. The results below include only completed test cases.
 
 ## Execution Summary
 
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 0 |
-| Passed | 0 |
+| Executed | 1 |
+| Passed | 1 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 38 |
+| Not Run | 37 |
 | Confirmed defects | 0 |
 
 ## Test Environment
 
 | Item | Value |
 |---|---|
-| Operating system | To be recorded |
-| Browser and version | To be recorded |
-| Execution period | To be recorded |
+| Operating system | Windows 11 |
+| Browser and version | Google Chrome (version not recorded) |
+| Execution period | Started 2026-09-18 |
 | Application URL | https://www.saucedemo.com/ |
-| Tester | Nevena Suknović |
+| Tester | Portfolio owner |
 
 ## Scope Completed
 
-To be updated after execution.
+- Valid login flow completed successfully (TC-001).
+- Inventory page and product list were displayed after authentication.
 
 ## Defect Summary
 
@@ -44,4 +45,4 @@ To be updated after confirmed defects are reproduced and documented.
 
 ## Final Assessment
 
-Not yet available. A conclusion and release recommendation will be added only after test execution is complete.
+Testing is in progress. No final assessment or release recommendation is available until the remaining test cases are executed.
