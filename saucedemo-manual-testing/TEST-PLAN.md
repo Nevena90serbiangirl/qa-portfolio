@@ -89,7 +89,7 @@ Each confirmed defect must include:
 ## 10. Risks
 
 - The public demo environment may change without notice.
-- Some accounts intentionally simulate special behaviour and must not automatically be treated as defects.
+- Some accounts intentionally simulate special behaviour and should not be treated as defective without verification.
 - Lack of written product requirements may require clearly stated assumptions.
 - A temporary service interruption may block execution.
 
