@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 14 |
-| Passed | 14 |
+| Executed | 15 |
+| Passed | 15 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 24 |
+| Not Run | 23 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -43,6 +43,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Returning from the product detail page opened the inventory page without unexpected state changes (TC-010).
 - Product name sorting worked in ascending and descending alphabetical order (TC-011, TC-012).
 - Product price sorting worked in ascending and descending numeric order (TC-013, TC-014).
+- Adding one product changed its action to Remove and displayed cart badge 1 (TC-015).
 
 ## Defect Summary
 

@@ -35,7 +35,7 @@
 
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| TC-015 | Add one product from the inventory page. | Button changes to Remove and cart badge shows 1. | High | Not Run |
+| TC-015 | Add one product from the inventory page. | Button changes to Remove and cart badge shows 1. | High | **Passed** — [Evidence](evidence/TC-015-add-one-product.png) |
 | TC-016 | Add three different products. | Cart badge shows 3 and all selected products appear in the cart. | High | Not Run |
 | TC-017 | Remove a selected product from the inventory page. | Product is removed and the badge count decreases correctly. | High | Not Run |
 | TC-018 | Remove a product from the cart page. | Product disappears and the badge count updates correctly. | High | Not Run |

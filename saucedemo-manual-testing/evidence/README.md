@@ -20,6 +20,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-012 — Name Z to A | Passed | 2026-09-19 | [View screenshot](TC-012-name-z-to-a.png) |
 | TC-013 — Price low to high | Passed | 2026-09-19 | [View screenshot](TC-013-price-low-to-high.png) |
 | TC-014 — Price high to low | Passed | 2026-09-19 | [View screenshot](TC-014-price-high-to-low.png) |
+| TC-015 — Add one product | Passed | 2026-09-19 | [View screenshot](TC-015-add-one-product.png) |
 
 ## Naming Convention
 
