@@ -23,7 +23,7 @@
 
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| TC-008 | Log in and review the inventory page. | Product cards show name, image, description, price, and action button. | High | Not Run |
+| TC-008 | Log in and review the inventory page. | Product cards show name, image, description, price, and action button. | High | **Passed** — [Evidence](evidence/TC-008-product-cards.png) |
 | TC-009 | Select a product name or image. | Correct product detail page opens. | Medium | Not Run |
 | TC-010 | Return from a product detail page. | Inventory page opens without unexpected state changes. | Medium | Not Run |
 | TC-011 | Sort products **Name (A to Z)**. | Product names are displayed in ascending alphabetical order. | Medium | Not Run |
