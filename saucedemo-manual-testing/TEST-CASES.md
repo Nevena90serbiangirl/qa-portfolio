@@ -16,7 +16,7 @@
 | TC-003 | Enter the valid username with an invalid password and select **Login**. | Login is rejected and a clear error is displayed. | High | **Passed** — [Evidence](evidence/TC-003-invalid-password.png) |
 | TC-004 | Leave both fields empty and select **Login**. | Required username validation is displayed. | High | **Passed** — [Evidence](evidence/TC-004-empty-fields.png) |
 | TC-005 | Enter a username, leave password empty, and select **Login**. | Required password validation is displayed. | High | **Passed** — [Evidence](evidence/TC-005-empty-password.png) |
-| TC-006 | Enter leading/trailing spaces around valid credentials and submit. | Behaviour is consistent and does not create an unintended login. | Medium | Not Run |
+| TC-006 | Enter leading/trailing spaces around valid credentials and submit. | Behaviour is consistent and does not create an unintended login. | Medium | **Passed** — [Evidence](evidence/TC-006-credentials-with-spaces.png) |
 | TC-007 | Log in with `locked_out_user`. | Access is rejected with the intended locked-user message. | Medium | Not Run |
 
 ## Product Inventory
