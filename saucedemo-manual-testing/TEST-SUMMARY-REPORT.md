@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 8 |
-| Passed | 8 |
+| Executed | 14 |
+| Passed | 14 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 30 |
+| Not Run | 24 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -39,6 +39,10 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Credentials with leading/trailing spaces were rejected without unintended login (TC-006).
 - Locked-out user was denied access with the intended message (TC-007).
 - Inventory displayed six product cards with names, images, descriptions, prices, and action buttons (TC-008).
+- Product detail page displayed the selected backpack with the matching name, image, description, price, and action button (TC-009).
+- Returning from the product detail page opened the inventory page without unexpected state changes (TC-010).
+- Product name sorting worked in ascending and descending alphabetical order (TC-011, TC-012).
+- Product price sorting worked in ascending and descending numeric order (TC-013, TC-014).
 
 ## Defect Summary
 

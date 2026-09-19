@@ -24,12 +24,12 @@
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
 | TC-008 | Log in and review the inventory page. | Product cards show name, image, description, price, and action button. | High | **Passed** — [Evidence](evidence/TC-008-product-cards.png) |
-| TC-009 | Select a product name or image. | Correct product detail page opens. | Medium | Not Run |
-| TC-010 | Return from a product detail page. | Inventory page opens without unexpected state changes. | Medium | Not Run |
-| TC-011 | Sort products **Name (A to Z)**. | Product names are displayed in ascending alphabetical order. | Medium | Not Run |
-| TC-012 | Sort products **Name (Z to A)**. | Product names are displayed in descending alphabetical order. | Medium | Not Run |
-| TC-013 | Sort products **Price (low to high)**. | Prices are displayed in ascending numeric order. | Medium | Not Run |
-| TC-014 | Sort products **Price (high to low)**. | Prices are displayed in descending numeric order. | Medium | Not Run |
+| TC-009 | Select a product name or image. | Correct product detail page opens. | Medium | **Passed** — [Evidence](evidence/TC-009-product-detail.png) |
+| TC-010 | Return from a product detail page. | Inventory page opens without unexpected state changes. | Medium | **Passed** — [Evidence](evidence/TC-010-return-to-products.png) |
+| TC-011 | Sort products **Name (A to Z)**. | Product names are displayed in ascending alphabetical order. | Medium | **Passed** — [Evidence](evidence/TC-011-name-a-to-z.png) |
+| TC-012 | Sort products **Name (Z to A)**. | Product names are displayed in descending alphabetical order. | Medium | **Passed** — [Evidence](evidence/TC-012-name-z-to-a.png) |
+| TC-013 | Sort products **Price (low to high)**. | Prices are displayed in ascending numeric order. | Medium | **Passed** — [Evidence](evidence/TC-013-price-low-to-high.png) |
+| TC-014 | Sort products **Price (high to low)**. | Prices are displayed in descending numeric order. | Medium | **Passed** — [Evidence](evidence/TC-014-price-high-to-low.png) |
 
 ## Shopping Cart
 

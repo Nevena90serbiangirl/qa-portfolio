@@ -14,6 +14,12 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-006 — Credentials with spaces | Passed | 2026-09-19 | [View screenshot](TC-006-credentials-with-spaces.png) |
 | TC-007 — Locked-out user | Passed | 2026-09-19 | [View screenshot](TC-007-locked-out-user.png) |
 | TC-008 — Product cards | Passed | 2026-09-19 | [View screenshot](TC-008-product-cards.png) |
+| TC-009 — Product detail | Passed | 2026-09-19 | [View screenshot](TC-009-product-detail.png) |
+| TC-010 — Return to products | Passed | 2026-09-19 | [View screenshot](TC-010-return-to-products.png) |
+| TC-011 — Name A to Z | Passed | 2026-09-19 | [View screenshot](TC-011-name-a-to-z.png) |
+| TC-012 — Name Z to A | Passed | 2026-09-19 | [View screenshot](TC-012-name-z-to-a.png) |
+| TC-013 — Price low to high | Passed | 2026-09-19 | [View screenshot](TC-013-price-low-to-high.png) |
+| TC-014 — Price high to low | Passed | 2026-09-19 | [View screenshot](TC-014-price-high-to-low.png) |
 
 ## Naming Convention
 
