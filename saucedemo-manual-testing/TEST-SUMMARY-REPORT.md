@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 6 |
-| Passed | 6 |
+| Executed | 7 |
+| Passed | 7 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 32 |
+| Not Run | 31 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -37,6 +37,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Empty login fields triggered the required username validation (TC-004).
 - Empty password field triggered the required password validation (TC-005).
 - Credentials with leading/trailing spaces were rejected without unintended login (TC-006).
+- Locked-out user was denied access with the intended message (TC-007).
 
 ## Defect Summary
 

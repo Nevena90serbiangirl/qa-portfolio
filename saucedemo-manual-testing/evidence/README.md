@@ -12,6 +12,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-004 — Empty login fields | Passed | 2026-09-18 | [View screenshot](TC-004-empty-fields.png) |
 | TC-005 — Empty password | Passed | 2026-09-18 | [View screenshot](TC-005-empty-password.png) |
 | TC-006 — Credentials with spaces | Passed | 2026-09-19 | [View screenshot](TC-006-credentials-with-spaces.png) |
+| TC-007 — Locked-out user | Passed | 2026-09-19 | [View screenshot](TC-007-locked-out-user.png) |
 
 ## Naming Convention
 
