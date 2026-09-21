@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 15 |
-| Passed | 15 |
+| Executed | 16 |
+| Passed | 16 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 23 |
+| Not Run | 22 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -44,6 +44,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Product name sorting worked in ascending and descending alphabetical order (TC-011, TC-012).
 - Product price sorting worked in ascending and descending numeric order (TC-013, TC-014).
 - Adding one product changed its action to Remove and displayed cart badge 1 (TC-015).
+- Adding three different products displayed cart badge 3, and all three selected products appeared in the cart (TC-016).
 
 ## Defect Summary
 

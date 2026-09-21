@@ -21,6 +21,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-013 — Price low to high | Passed | 2026-09-19 | [View screenshot](TC-013-price-low-to-high.png) |
 | TC-014 — Price high to low | Passed | 2026-09-19 | [View screenshot](TC-014-price-high-to-low.png) |
 | TC-015 — Add one product | Passed | 2026-09-19 | [View screenshot](TC-015-add-one-product.png) |
+| TC-016 — Three products in cart | Passed | 2026-09-21 | [View screenshot](TC-016-three-products-in-cart.png) |
 
 ## Naming Convention
 
