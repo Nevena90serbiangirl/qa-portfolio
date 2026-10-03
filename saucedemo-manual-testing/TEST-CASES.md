@@ -42,7 +42,7 @@
 | TC-019 | Compare product name and price between inventory and cart. | Name and price remain consistent. | High | **Passed** — [Inventory](evidence/TC-019-inventory-name-price.png) · [Cart](evidence/TC-018-after-cart-removal.png) |
 | TC-020 | Open the cart with no products selected. | Empty cart page opens without an application error. | Medium | **Passed** — [Evidence](evidence/TC-020-empty-cart.png) |
 | TC-021 | Add a product, open the cart, select **Continue Shopping**. | Inventory page opens and the cart state is preserved. | Medium | **Passed** — [Cart](evidence/TC-018-after-cart-removal.png) · [Inventory](evidence/TC-019-inventory-name-price.png) |
-| TC-022 | Add a product, open the cart, select **Checkout**. | Checkout information page opens. | High | Not Run |
+| TC-022 | Add a product, open the cart, select **Checkout**. | Checkout information page opens. | High | **Passed** — [Evidence](evidence/TC-022-checkout-information.png) |
 
 ## Checkout
 
