@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 24 |
-| Passed | 24 |
+| Executed | 25 |
+| Passed | 25 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 14 |
+| Not Run | 13 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -53,6 +53,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Selecting Checkout from the cart opened the Checkout: Your Information page (TC-022).
 - Entering valid first name, last name, and postal code opened the Checkout: Overview page (TC-023).
 - Submitting empty checkout information displayed the required first-name validation and prevented progression (TC-024).
+- Leaving First Name empty while completing Last Name and Postal Code displayed the required first-name validation (TC-025).
 
 ## Defect Summary
 
