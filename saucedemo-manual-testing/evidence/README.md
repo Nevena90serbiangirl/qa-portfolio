@@ -24,6 +24,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-016 — Three products in cart | Passed | 2026-09-21 | [View screenshot](TC-016-three-products-in-cart.png) |
 | TC-017 — Remove product from inventory | Passed | 2026-10-03 | [Before](TC-017-before-removal.png) · [After](TC-017-after-removal.png) |
 | TC-018 — Remove product from cart | Passed | 2026-10-03 | [Before](TC-018-before-cart-removal.png) · [After](TC-018-after-cart-removal.png) |
+| TC-019 — Inventory/cart name and price | Passed | 2026-10-03 | [Inventory](TC-019-inventory-name-price.png) · [Cart](TC-018-after-cart-removal.png) |
 
 ## Naming Convention
 
