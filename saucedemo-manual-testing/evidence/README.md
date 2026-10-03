@@ -22,6 +22,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-014 — Price high to low | Passed | 2026-09-19 | [View screenshot](TC-014-price-high-to-low.png) |
 | TC-015 — Add one product | Passed | 2026-09-19 | [View screenshot](TC-015-add-one-product.png) |
 | TC-016 — Three products in cart | Passed | 2026-09-21 | [View screenshot](TC-016-three-products-in-cart.png) |
+| TC-017 — Remove product from inventory | Passed | 2026-10-03 | [Before](TC-017-before-removal.png) · [After](TC-017-after-removal.png) |
 
 ## Naming Convention
 

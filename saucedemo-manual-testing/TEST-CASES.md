@@ -37,7 +37,7 @@
 |---|---|---|---|---|
 | TC-015 | Add one product from the inventory page. | Button changes to Remove and cart badge shows 1. | High | **Passed** — [Evidence](evidence/TC-015-add-one-product.png) |
 | TC-016 | Add three different products. | Cart badge shows 3 and all selected products appear in the cart. | High | **Passed** — [Evidence](evidence/TC-016-three-products-in-cart.png) |
-| TC-017 | Remove a selected product from the inventory page. | Product is removed and the badge count decreases correctly. | High | Not Run |
+| TC-017 | Remove a selected product from the inventory page. | Product is removed and the badge count decreases correctly. | High | **Passed** — [Before](evidence/TC-017-before-removal.png) · [After](evidence/TC-017-after-removal.png) |
 | TC-018 | Remove a product from the cart page. | Product disappears and the badge count updates correctly. | High | Not Run |
 | TC-019 | Compare product name and price between inventory and cart. | Name and price remain consistent. | High | Not Run |
 | TC-020 | Open the cart with no products selected. | Empty cart page opens without an application error. | Medium | Not Run |
