@@ -31,6 +31,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-023 — Valid checkout information | Passed | 2026-10-03 | [View screenshot](TC-023-valid-checkout-data.png) |
 | TC-024 — Empty checkout fields | Passed | 2026-10-03 | [View screenshot](TC-024-empty-checkout-fields.png) |
 | TC-025 — Empty first name | Passed | 2026-10-03 | [View screenshot](TC-025-empty-first-name.png) |
+| TC-026 — Empty last name | Passed | 2026-10-03 | [View screenshot](TC-026-empty-last-name.png) |
 
 ## Naming Convention
 

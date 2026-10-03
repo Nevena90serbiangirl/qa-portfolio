@@ -51,7 +51,7 @@
 | TC-023 | Complete first name, last name, and postal code with valid data. | Order overview page opens. | High | **Passed** — [Evidence](evidence/TC-023-valid-checkout-data.png) |
 | TC-024 | Leave all checkout information fields empty and continue. | Required first-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-024-empty-checkout-fields.png) |
 | TC-025 | Leave first name empty and complete the other fields. | Required first-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-025-empty-first-name.png) |
-| TC-026 | Leave last name empty and complete the other fields. | Required last-name validation is displayed. | High | Not Run |
+| TC-026 | Leave last name empty and complete the other fields. | Required last-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-026-empty-last-name.png) |
 | TC-027 | Leave postal code empty and complete the other fields. | Required postal-code validation is displayed. | High | Not Run |
 | TC-028 | Enter only spaces in checkout fields and continue. | Blank-equivalent data is rejected or clearly handled. | Medium | Not Run |
 | TC-029 | Enter long text in customer fields and continue. | Page remains usable and input is handled without broken layout. | Low | Not Run |
