@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 26 |
-| Passed | 26 |
+| Executed | 27 |
+| Passed | 27 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 12 |
+| Not Run | 11 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -55,6 +55,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Submitting empty checkout information displayed the required first-name validation and prevented progression (TC-024).
 - Leaving First Name empty while completing Last Name and Postal Code displayed the required first-name validation (TC-025).
 - Leaving Last Name empty while completing First Name and Postal Code displayed the required last-name validation (TC-026).
+- Leaving Postal Code empty while completing First Name and Last Name displayed the required postal-code validation (TC-027).
 
 ## Defect Summary
 

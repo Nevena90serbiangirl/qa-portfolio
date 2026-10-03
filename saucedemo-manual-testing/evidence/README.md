@@ -32,6 +32,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-024 — Empty checkout fields | Passed | 2026-10-03 | [View screenshot](TC-024-empty-checkout-fields.png) |
 | TC-025 — Empty first name | Passed | 2026-10-03 | [View screenshot](TC-025-empty-first-name.png) |
 | TC-026 — Empty last name | Passed | 2026-10-03 | [View screenshot](TC-026-empty-last-name.png) |
+| TC-027 — Empty postal code | Passed | 2026-10-03 | [View screenshot](TC-027-empty-postal-code.png) |
 
 ## Naming Convention
 
