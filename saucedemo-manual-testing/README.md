@@ -50,7 +50,7 @@ The following areas are included:
 ## Execution Status
 
 - Test design: Complete
-- Test execution: In progress (36 of 38 test cases completed)
+- Test execution: In progress (37 of 38 test cases completed)
 - Defects recorded: 2 (BUG-001 confirmed; BUG-002 awaiting independent retest)
 - Evidence collection: In progress
 
