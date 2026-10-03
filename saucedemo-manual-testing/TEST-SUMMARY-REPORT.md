@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 34 |
-| Passed | 33 |
+| Executed | 35 |
+| Passed | 34 |
 | Failed | 1 |
 | Blocked | 0 |
-| Not Run | 4 |
+| Not Run | 3 |
 | Reported defects | 1 |
 | Confirmed defects | 1 |
 
@@ -64,6 +64,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Cancel from Checkout: Your Information returned the user to the cart without an error and preserved the selected item (TC-032).
 - Cancel from Checkout: Overview returned the user to inventory without completing the order and preserved the selected Backpack (TC-033).
 - Finish after valid checkout opened Checkout: Complete and displayed a successful order confirmation (TC-034).
+- The side menu opened with all navigation options, closed through its X control, and left the Products page usable (TC-035).
 
 ## Defect Summary
 

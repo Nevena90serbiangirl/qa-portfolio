@@ -65,7 +65,7 @@
 
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
-| TC-035 | Open and close the side menu. | Menu controls work and page content remains usable. | Medium | Not Run |
+| TC-035 | Open and close the side menu. | Menu controls work and page content remains usable. | Medium | **Passed** — [Open](evidence/TC-035-menu-open.png) · [Closed](evidence/TC-035-menu-closed.png) |
 | TC-036 | Select **Reset App State** after adding products. | Cart and product selection return to the intended initial state. | Medium | Not Run |
 | TC-037 | Select **Logout** from the menu. | Login page opens and authenticated content is no longer available through normal navigation. | High | Not Run |
 | TC-038 | Log out and then log in again with valid credentials. | A new authenticated session starts without an unexpected error. | Medium | Not Run |
