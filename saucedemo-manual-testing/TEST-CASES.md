@@ -59,7 +59,7 @@
 | TC-031 | Verify item total, tax, and total on the overview page. | Displayed values are mathematically consistent. | High | **Passed** — [Evidence](evidence/TC-029-long-text-after.png) |
 | TC-032 | Select **Cancel** from checkout information. | User returns to the cart without an unexpected error. | Medium | **Passed** — [Evidence](evidence/TC-030-cart-item-comparison.png) |
 | TC-033 | Select **Cancel** from order overview. | User returns to inventory and no order is completed. | Medium | **Passed** — [Evidence](evidence/TC-033-cancel-order-overview.png) |
-| TC-034 | Select **Finish** after a valid checkout. | Confirmation page appears and indicates successful completion. | High | Not Run |
+| TC-034 | Select **Finish** after a valid checkout. | Confirmation page appears and indicates successful completion. | High | **Passed** — [Evidence](evidence/TC-034-order-complete.png) |
 
 ## Navigation and Session
 

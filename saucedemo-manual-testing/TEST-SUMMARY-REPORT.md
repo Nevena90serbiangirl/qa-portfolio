@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 33 |
-| Passed | 32 |
+| Executed | 34 |
+| Passed | 33 |
 | Failed | 1 |
 | Blocked | 0 |
-| Not Run | 5 |
+| Not Run | 4 |
 | Reported defects | 1 |
 | Confirmed defects | 1 |
 
@@ -63,6 +63,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - The overview calculation was correct: $29.99 item total + $2.40 tax = $32.39 total (TC-031).
 - Cancel from Checkout: Your Information returned the user to the cart without an error and preserved the selected item (TC-032).
 - Cancel from Checkout: Overview returned the user to inventory without completing the order and preserved the selected Backpack (TC-033).
+- Finish after valid checkout opened Checkout: Complete and displayed a successful order confirmation (TC-034).
 
 ## Defect Summary
 
