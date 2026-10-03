@@ -2,20 +2,20 @@
 
 ## Report Status
 
-**Execution in progress**
+**Execution completed**
 
-Manual execution started on 2026-09-18. The results below include only completed test cases.
+Manual execution was performed from 2026-09-18 to 2026-10-03. All planned test cases were completed.
 
 ## Execution Summary
 
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 37 |
-| Passed | 35 |
+| Executed | 38 |
+| Passed | 36 |
 | Failed | 2 |
 | Blocked | 0 |
-| Not Run | 1 |
+| Not Run | 0 |
 | Reported defects | 2 |
 | Confirmed defects | 1 |
 
@@ -25,7 +25,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 |---|---|
 | Operating system | Windows 11 |
 | Browser and version | Google Chrome (version not recorded) |
-| Execution period | Started 2026-09-18 |
+| Execution period | 2026-09-18 to 2026-10-03 |
 | Application URL | https://www.saucedemo.com/ |
 | Tester | Portfolio owner |
 
@@ -67,6 +67,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - The side menu opened with all navigation options, closed through its X control, and left the Products page usable (TC-035).
 - Reset App State removed the cart badge but left the two selected product buttons in the **Remove** state instead of restoring **Add to cart**; TC-036 failed and BUG-002 was recorded.
 - Logout returned the user to the Login page, and browser Back navigation did not restore authenticated access; direct return to `/inventory.html` was blocked with the intended message (TC-037).
+- A new login with valid credentials started a fresh authenticated session and displayed the complete Products page with the initial cart state (TC-038).
 
 ## Defect Summary
 
@@ -83,4 +84,8 @@ Manual execution started on 2026-09-18. The results below include only completed
 
 ## Final Assessment
 
-Testing is in progress. No final assessment or release recommendation is available until the remaining test cases are executed.
+All 38 planned manual test cases were executed. The application passed 36 cases and failed 2 cases, resulting in a 94.7% pass rate.
+
+The primary customer journey—login, product browsing, sorting, cart operations, checkout, order completion, logout, and re-login—worked successfully. Two medium-severity defects were recorded: whitespace-only checkout information is accepted, and Reset App State leaves inventory controls inconsistent with the cleared cart badge.
+
+For this demonstration application, the tested core flow is usable. The two recorded defects should be corrected and regression-tested before the affected validation and reset-state behaviours are considered reliable.

@@ -43,6 +43,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-035 — Open and close side menu | Passed | 2026-10-03 | [Open](TC-035-menu-open.png) · [Closed](TC-035-menu-closed.png) |
 | TC-036 — Reset application state | Failed | 2026-10-03 | [Before](TC-036-before-reset.png) · [Reset option](TC-036-reset-option.png) · [After](TC-036-after-reset.png) |
 | TC-037 — Logout and blocked Back navigation | Passed | 2026-10-03 | [Menu](TC-037-menu-logout.png) · [Logged out](TC-037-login-page.png) · [Back blocked](TC-037-back-navigation-blocked.png) |
+| TC-038 — Login again after logout | Passed | 2026-10-03 | [View screenshot](TC-038-login-again.png) |
 
 ## Naming Convention
 
