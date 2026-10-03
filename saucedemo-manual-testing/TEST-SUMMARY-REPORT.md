@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 19 |
-| Passed | 19 |
+| Executed | 20 |
+| Passed | 20 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 19 |
+| Not Run | 18 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -48,6 +48,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Removing a selected product from the inventory page changed its action back to Add to cart and reduced the cart badge from 3 to 2 (TC-017).
 - Removing a product from the cart page removed the item and reduced the cart badge from 2 to 1 (TC-018).
 - The Sauce Labs Bolt T-Shirt name and $15.99 price remained consistent between inventory and cart (TC-019).
+- The empty cart page opened successfully without an application error or cart badge (TC-020).
 
 ## Defect Summary
 
