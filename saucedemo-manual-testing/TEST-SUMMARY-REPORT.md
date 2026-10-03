@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 28 |
-| Passed | 27 |
+| Executed | 29 |
+| Passed | 28 |
 | Failed | 1 |
 | Blocked | 0 |
-| Not Run | 10 |
+| Not Run | 9 |
 | Reported defects | 1 |
 | Confirmed defects | 1 |
 
@@ -58,6 +58,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Leaving Last Name empty while completing First Name and Postal Code displayed the required last-name validation (TC-026).
 - Leaving Postal Code empty while completing First Name and Last Name displayed the required postal-code validation (TC-027).
 - Whitespace-only customer information was accepted and opened Checkout: Overview; TC-028 failed and BUG-001 was confirmed by reproducing the issue twice (2/2).
+- Long customer-field values were contained within the form without breaking the layout, and Continue opened Checkout: Overview (TC-029).
 
 ## Defect Summary
 

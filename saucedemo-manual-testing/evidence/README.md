@@ -34,6 +34,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-026 — Empty last name | Passed | 2026-10-03 | [View screenshot](TC-026-empty-last-name.png) |
 | TC-027 — Empty postal code | Passed | 2026-10-03 | [View screenshot](TC-027-empty-postal-code.png) |
 | TC-028 — Whitespace-only checkout fields | Failed | 2026-10-03 | [Initial result](TC-028-whitespace-only-fields.png) · [Retest input](BUG-001-retest-before.png) · [Retest result](BUG-001-retest-after.png) |
+| TC-029 — Long checkout field values | Passed | 2026-10-03 | [Before](TC-029-long-text-before.png) · [After](TC-029-long-text-after.png) |
 
 ## Naming Convention
 
