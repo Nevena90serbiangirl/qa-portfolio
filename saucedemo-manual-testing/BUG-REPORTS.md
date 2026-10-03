@@ -2,9 +2,47 @@
 
 ## Current Status
 
-No confirmed defects have been recorded yet. Bugs will be added only after manual execution and successful reproduction.
+One defect candidate has been recorded during manual execution. BUG-001 was observed once and requires a second execution to confirm reproducibility.
 
 The application contains test accounts that intentionally simulate special behaviour. Intended behaviour must not be reported as a defect.
+
+## BUG-001 - Checkout accepts whitespace-only customer information
+
+| Field | Value |
+|---|---|
+| Status | New — reproduction confirmation pending |
+| Severity | Medium |
+| Priority | Medium |
+| Environment | Windows 11, Google Chrome (version not recorded) |
+| Module | Checkout |
+| Reproducibility | Observed once |
+| Test Case | TC-028 |
+| Evidence | [Screenshot](evidence/TC-028-whitespace-only-fields.png) |
+
+**Preconditions**
+
+1. The user is logged in with `standard_user`.
+2. At least one product is present in the cart.
+3. The Checkout: Your Information page is open.
+
+**Steps to Reproduce**
+
+1. Enter three space characters in First Name.
+2. Enter three space characters in Last Name.
+3. Enter three space characters in Zip/Postal Code.
+4. Select **Continue**.
+
+**Expected Result**
+
+Whitespace-only values are treated as empty. The application remains on the information page and displays a required-field validation message.
+
+**Actual Result**
+
+The whitespace-only values are accepted and the application opens the Checkout: Overview page.
+
+**Additional Notes**
+
+Observed on 2026-10-03. Repeat the same steps in the current environment to confirm reproducibility; cross-browser verification can be performed later.
 
 ## Bug Report Template
 

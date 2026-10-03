@@ -53,7 +53,7 @@
 | TC-025 | Leave first name empty and complete the other fields. | Required first-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-025-empty-first-name.png) |
 | TC-026 | Leave last name empty and complete the other fields. | Required last-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-026-empty-last-name.png) |
 | TC-027 | Leave postal code empty and complete the other fields. | Required postal-code validation is displayed. | High | **Passed** — [Evidence](evidence/TC-027-empty-postal-code.png) |
-| TC-028 | Enter only spaces in checkout fields and continue. | Blank-equivalent data is rejected or clearly handled. | Medium | Not Run |
+| TC-028 | Enter only spaces in checkout fields and continue. | Blank-equivalent data is rejected or clearly handled. | Medium | **Failed** — [Evidence](evidence/TC-028-whitespace-only-fields.png) · [BUG-001](BUG-REPORTS.md) |
 | TC-029 | Enter long text in customer fields and continue. | Page remains usable and input is handled without broken layout. | Low | Not Run |
 | TC-030 | Compare cart items with order overview items. | Products, quantities, and individual prices remain consistent. | High | Not Run |
 | TC-031 | Verify item total, tax, and total on the overview page. | Displayed values are mathematically consistent. | High | Not Run |
