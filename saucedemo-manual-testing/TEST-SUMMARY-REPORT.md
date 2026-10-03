@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 32 |
-| Passed | 31 |
+| Executed | 33 |
+| Passed | 32 |
 | Failed | 1 |
 | Blocked | 0 |
-| Not Run | 6 |
+| Not Run | 5 |
 | Reported defects | 1 |
 | Confirmed defects | 1 |
 
@@ -62,6 +62,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - The Sauce Labs Backpack name, quantity 1, and $29.99 price remained consistent between cart and order overview (TC-030).
 - The overview calculation was correct: $29.99 item total + $2.40 tax = $32.39 total (TC-031).
 - Cancel from Checkout: Your Information returned the user to the cart without an error and preserved the selected item (TC-032).
+- Cancel from Checkout: Overview returned the user to inventory without completing the order and preserved the selected Backpack (TC-033).
 
 ## Defect Summary
 

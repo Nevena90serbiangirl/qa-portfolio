@@ -38,6 +38,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-030 — Cart and overview item comparison | Passed | 2026-10-03 | [Cart](TC-030-cart-item-comparison.png) · [Overview](TC-029-long-text-after.png) |
 | TC-031 — Overview total calculation | Passed | 2026-10-03 | [View screenshot](TC-029-long-text-after.png) |
 | TC-032 — Cancel checkout information | Passed | 2026-10-03 | [View screenshot](TC-030-cart-item-comparison.png) |
+| TC-033 — Cancel order overview | Passed | 2026-10-03 | [View screenshot](TC-033-cancel-order-overview.png) |
 
 ## Naming Convention
 
