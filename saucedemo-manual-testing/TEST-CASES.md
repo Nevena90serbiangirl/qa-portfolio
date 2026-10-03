@@ -41,7 +41,7 @@
 | TC-018 | Remove a product from the cart page. | Product disappears and the badge count updates correctly. | High | **Passed** — [Before](evidence/TC-018-before-cart-removal.png) · [After](evidence/TC-018-after-cart-removal.png) |
 | TC-019 | Compare product name and price between inventory and cart. | Name and price remain consistent. | High | **Passed** — [Inventory](evidence/TC-019-inventory-name-price.png) · [Cart](evidence/TC-018-after-cart-removal.png) |
 | TC-020 | Open the cart with no products selected. | Empty cart page opens without an application error. | Medium | **Passed** — [Evidence](evidence/TC-020-empty-cart.png) |
-| TC-021 | Add a product, open the cart, select **Continue Shopping**. | Inventory page opens and the cart state is preserved. | Medium | Not Run |
+| TC-021 | Add a product, open the cart, select **Continue Shopping**. | Inventory page opens and the cart state is preserved. | Medium | **Passed** — [Cart](evidence/TC-018-after-cart-removal.png) · [Inventory](evidence/TC-019-inventory-name-price.png) |
 | TC-022 | Add a product, open the cart, select **Checkout**. | Checkout information page opens. | High | Not Run |
 
 ## Checkout

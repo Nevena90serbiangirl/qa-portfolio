@@ -26,6 +26,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-018 — Remove product from cart | Passed | 2026-10-03 | [Before](TC-018-before-cart-removal.png) · [After](TC-018-after-cart-removal.png) |
 | TC-019 — Inventory/cart name and price | Passed | 2026-10-03 | [Inventory](TC-019-inventory-name-price.png) · [Cart](TC-018-after-cart-removal.png) |
 | TC-020 — Empty cart | Passed | 2026-10-03 | [View screenshot](TC-020-empty-cart.png) |
+| TC-021 — Continue shopping preserves cart | Passed | 2026-10-03 | [Cart](TC-018-after-cart-removal.png) · [Inventory](TC-019-inventory-name-price.png) |
 
 ## Naming Convention
 
