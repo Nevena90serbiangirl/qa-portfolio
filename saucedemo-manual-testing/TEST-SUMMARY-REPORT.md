@@ -17,7 +17,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Blocked | 0 |
 | Not Run | 10 |
 | Reported defects | 1 |
-| Confirmed defects | 0 |
+| Confirmed defects | 1 |
 
 ## Test Environment
 
@@ -57,7 +57,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Leaving First Name empty while completing Last Name and Postal Code displayed the required first-name validation (TC-025).
 - Leaving Last Name empty while completing First Name and Postal Code displayed the required last-name validation (TC-026).
 - Leaving Postal Code empty while completing First Name and Last Name displayed the required postal-code validation (TC-027).
-- Whitespace-only customer information was accepted and opened Checkout: Overview; TC-028 failed and BUG-001 was opened for reproduction confirmation.
+- Whitespace-only customer information was accepted and opened Checkout: Overview; TC-028 failed and BUG-001 was confirmed by reproducing the issue twice (2/2).
 
 ## Defect Summary
 

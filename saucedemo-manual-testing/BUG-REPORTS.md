@@ -2,7 +2,7 @@
 
 ## Current Status
 
-One defect candidate has been recorded during manual execution. BUG-001 was observed once and requires a second execution to confirm reproducibility.
+One confirmed defect has been recorded during manual execution. BUG-001 was reproduced twice using the same steps (2/2).
 
 The application contains test accounts that intentionally simulate special behaviour. Intended behaviour must not be reported as a defect.
 
@@ -10,14 +10,14 @@ The application contains test accounts that intentionally simulate special behav
 
 | Field | Value |
 |---|---|
-| Status | New — reproduction confirmation pending |
+| Status | Confirmed — New |
 | Severity | Medium |
 | Priority | Medium |
 | Environment | Windows 11, Google Chrome (version not recorded) |
 | Module | Checkout |
-| Reproducibility | Observed once |
+| Reproducibility | Always — 2/2 executions |
 | Test Case | TC-028 |
-| Evidence | [Screenshot](evidence/TC-028-whitespace-only-fields.png) |
+| Evidence | [Initial result](evidence/TC-028-whitespace-only-fields.png) · [Retest input](evidence/BUG-001-retest-before.png) · [Retest result](evidence/BUG-001-retest-after.png) |
 
 **Preconditions**
 
@@ -42,7 +42,7 @@ The whitespace-only values are accepted and the application opens the Checkout: 
 
 **Additional Notes**
 
-Observed on 2026-10-03. Repeat the same steps in the current environment to confirm reproducibility; cross-browser verification can be performed later.
+Observed and reproduced on 2026-10-03 in the same environment. The issue occurred in 2 of 2 executions. Cross-browser verification can be performed later.
 
 ## Bug Report Template
 
