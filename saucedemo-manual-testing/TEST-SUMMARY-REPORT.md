@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 17 |
-| Passed | 17 |
+| Executed | 18 |
+| Passed | 18 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 21 |
+| Not Run | 20 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -46,6 +46,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Adding one product changed its action to Remove and displayed cart badge 1 (TC-015).
 - Adding three different products displayed cart badge 3, and all three selected products appeared in the cart (TC-016).
 - Removing a selected product from the inventory page changed its action back to Add to cart and reduced the cart badge from 3 to 2 (TC-017).
+- Removing a product from the cart page removed the item and reduced the cart badge from 2 to 1 (TC-018).
 
 ## Defect Summary
 
