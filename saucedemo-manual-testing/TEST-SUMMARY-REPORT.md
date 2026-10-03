@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 23 |
-| Passed | 23 |
+| Executed | 24 |
+| Passed | 24 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 15 |
+| Not Run | 14 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -52,6 +52,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Continue Shopping returned the user from the cart to inventory while preserving the selected product and cart badge 1 (TC-021).
 - Selecting Checkout from the cart opened the Checkout: Your Information page (TC-022).
 - Entering valid first name, last name, and postal code opened the Checkout: Overview page (TC-023).
+- Submitting empty checkout information displayed the required first-name validation and prevented progression (TC-024).
 
 ## Defect Summary
 

@@ -49,7 +49,7 @@
 | ID | Test Case and Steps | Expected Result | Priority | Status |
 |---|---|---|---|---|
 | TC-023 | Complete first name, last name, and postal code with valid data. | Order overview page opens. | High | **Passed** — [Evidence](evidence/TC-023-valid-checkout-data.png) |
-| TC-024 | Leave all checkout information fields empty and continue. | Required first-name validation is displayed. | High | Not Run |
+| TC-024 | Leave all checkout information fields empty and continue. | Required first-name validation is displayed. | High | **Passed** — [Evidence](evidence/TC-024-empty-checkout-fields.png) |
 | TC-025 | Leave first name empty and complete the other fields. | Required first-name validation is displayed. | High | Not Run |
 | TC-026 | Leave last name empty and complete the other fields. | Required last-name validation is displayed. | High | Not Run |
 | TC-027 | Leave postal code empty and complete the other fields. | Required postal-code validation is displayed. | High | Not Run |

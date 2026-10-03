@@ -29,6 +29,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-021 — Continue shopping preserves cart | Passed | 2026-10-03 | [Cart](TC-018-after-cart-removal.png) · [Inventory](TC-019-inventory-name-price.png) |
 | TC-022 — Checkout information page | Passed | 2026-10-03 | [View screenshot](TC-022-checkout-information.png) |
 | TC-023 — Valid checkout information | Passed | 2026-10-03 | [View screenshot](TC-023-valid-checkout-data.png) |
+| TC-024 — Empty checkout fields | Passed | 2026-10-03 | [View screenshot](TC-024-empty-checkout-fields.png) |
 
 ## Naming Convention
 
