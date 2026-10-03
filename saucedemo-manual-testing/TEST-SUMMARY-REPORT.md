@@ -11,12 +11,12 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 35 |
+| Executed | 36 |
 | Passed | 34 |
-| Failed | 1 |
+| Failed | 2 |
 | Blocked | 0 |
-| Not Run | 3 |
-| Reported defects | 1 |
+| Not Run | 2 |
+| Reported defects | 2 |
 | Confirmed defects | 1 |
 
 ## Test Environment
@@ -65,10 +65,14 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Cancel from Checkout: Overview returned the user to inventory without completing the order and preserved the selected Backpack (TC-033).
 - Finish after valid checkout opened Checkout: Complete and displayed a successful order confirmation (TC-034).
 - The side menu opened with all navigation options, closed through its X control, and left the Products page usable (TC-035).
+- Reset App State removed the cart badge but left the two selected product buttons in the **Remove** state instead of restoring **Add to cart**; TC-036 failed and BUG-002 was recorded.
 
 ## Defect Summary
 
-To be updated after confirmed defects are reproduced and documented.
+| Defect | Status | Severity | Summary |
+|---|---|---|---|
+| BUG-001 | Confirmed — New | Medium | Checkout accepts whitespace-only customer information. |
+| BUG-002 | New — retest pending | Medium | Reset App State clears the cart badge but leaves selected products in the Remove state. |
 
 ## Risks and Limitations
 

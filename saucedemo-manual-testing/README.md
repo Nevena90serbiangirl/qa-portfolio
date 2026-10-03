@@ -50,8 +50,8 @@ The following areas are included:
 ## Execution Status
 
 - Test design: Complete
-- Test execution: In progress (35 of 38 test cases completed)
-- Confirmed defects: 1 (BUG-001; reproduced 2/2)
+- Test execution: In progress (36 of 38 test cases completed)
+- Defects recorded: 2 (BUG-001 confirmed; BUG-002 awaiting independent retest)
 - Evidence collection: In progress
 
 Results will be updated only after manual execution. Intended application behaviour will not be reported as a defect.

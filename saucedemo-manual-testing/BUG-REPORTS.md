@@ -2,7 +2,7 @@
 
 ## Current Status
 
-One confirmed defect has been recorded during manual execution. BUG-001 was reproduced twice using the same steps (2/2).
+Two defects have been recorded during manual execution. BUG-001 was reproduced twice using the same steps (2/2). BUG-002 was observed in one execution (1/1) and is awaiting an independent retest.
 
 The application contains test accounts that intentionally simulate special behaviour. Intended behaviour must not be reported as a defect.
 
@@ -43,6 +43,44 @@ The whitespace-only values are accepted and the application opens the Checkout: 
 **Additional Notes**
 
 Observed and reproduced on 2026-10-03 in the same environment. The issue occurred in 2 of 2 executions. Cross-browser verification can be performed later.
+
+## BUG-002 - Reset App State leaves selected products in the Remove state
+
+| Field | Value |
+|---|---|
+| Status | New — retest pending |
+| Severity | Medium |
+| Priority | Medium |
+| Environment | Windows 11, Google Chrome (version not recorded) |
+| Module | Navigation / Shopping Cart |
+| Reproducibility | Observed once — 1/1 execution |
+| Test Case | TC-036 |
+| Evidence | [Before reset](evidence/TC-036-before-reset.png) · [Reset option](evidence/TC-036-reset-option.png) · [After reset](evidence/TC-036-after-reset.png) |
+
+**Preconditions**
+
+1. The user is logged in with `standard_user`.
+2. Sauce Labs Backpack and Sauce Labs Bike Light have been added from the inventory page.
+3. The cart badge shows 2 and both product buttons show **Remove**.
+
+**Steps to Reproduce**
+
+1. Open the side menu.
+2. Select **Reset App State**.
+3. Close the side menu.
+4. Review the cart badge and the two previously selected product cards.
+
+**Expected Result**
+
+The cart badge disappears and all previously selected product actions return to **Add to cart**, leaving the application in its initial state.
+
+**Actual Result**
+
+The cart badge disappears, but Sauce Labs Backpack and Sauce Labs Bike Light still display **Remove**. The cart state and the inventory controls are inconsistent.
+
+**Additional Notes**
+
+Observed on 2026-10-03. Refreshing or navigating away may provide a workaround, but an independent retest is required before the defect is marked confirmed.
 
 ## Bug Report Template
 

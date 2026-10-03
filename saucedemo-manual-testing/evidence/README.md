@@ -41,6 +41,7 @@ Screenshots are added during manual execution and linked to the corresponding te
 | TC-033 — Cancel order overview | Passed | 2026-10-03 | [View screenshot](TC-033-cancel-order-overview.png) |
 | TC-034 — Complete valid order | Passed | 2026-10-03 | [View screenshot](TC-034-order-complete.png) |
 | TC-035 — Open and close side menu | Passed | 2026-10-03 | [Open](TC-035-menu-open.png) · [Closed](TC-035-menu-closed.png) |
+| TC-036 — Reset application state | Failed | 2026-10-03 | [Before](TC-036-before-reset.png) · [Reset option](TC-036-reset-option.png) · [After](TC-036-after-reset.png) |
 
 ## Naming Convention
 
