@@ -55,9 +55,9 @@
 | TC-027 | Leave postal code empty and complete the other fields. | Required postal-code validation is displayed. | High | **Passed** — [Evidence](evidence/TC-027-empty-postal-code.png) |
 | TC-028 | Enter only spaces in checkout fields and continue. | Blank-equivalent data is rejected or clearly handled. | Medium | **Failed** — [Evidence](evidence/TC-028-whitespace-only-fields.png) · [BUG-001](BUG-REPORTS.md) |
 | TC-029 | Enter long text in customer fields and continue. | Page remains usable and input is handled without broken layout. | Low | **Passed** — [Before](evidence/TC-029-long-text-before.png) · [After](evidence/TC-029-long-text-after.png) |
-| TC-030 | Compare cart items with order overview items. | Products, quantities, and individual prices remain consistent. | High | Not Run |
-| TC-031 | Verify item total, tax, and total on the overview page. | Displayed values are mathematically consistent. | High | Not Run |
-| TC-032 | Select **Cancel** from checkout information. | User returns to the cart without an unexpected error. | Medium | Not Run |
+| TC-030 | Compare cart items with order overview items. | Products, quantities, and individual prices remain consistent. | High | **Passed** — [Cart](evidence/TC-030-cart-item-comparison.png) · [Overview](evidence/TC-029-long-text-after.png) |
+| TC-031 | Verify item total, tax, and total on the overview page. | Displayed values are mathematically consistent. | High | **Passed** — [Evidence](evidence/TC-029-long-text-after.png) |
+| TC-032 | Select **Cancel** from checkout information. | User returns to the cart without an unexpected error. | Medium | **Passed** — [Evidence](evidence/TC-030-cart-item-comparison.png) |
 | TC-033 | Select **Cancel** from order overview. | User returns to inventory and no order is completed. | Medium | Not Run |
 | TC-034 | Select **Finish** after a valid checkout. | Confirmation page appears and indicates successful completion. | High | Not Run |
 

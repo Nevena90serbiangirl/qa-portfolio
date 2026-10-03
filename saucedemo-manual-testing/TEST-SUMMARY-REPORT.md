@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 29 |
-| Passed | 28 |
+| Executed | 32 |
+| Passed | 31 |
 | Failed | 1 |
 | Blocked | 0 |
-| Not Run | 9 |
+| Not Run | 6 |
 | Reported defects | 1 |
 | Confirmed defects | 1 |
 
@@ -59,6 +59,9 @@ Manual execution started on 2026-09-18. The results below include only completed
 - Leaving Postal Code empty while completing First Name and Last Name displayed the required postal-code validation (TC-027).
 - Whitespace-only customer information was accepted and opened Checkout: Overview; TC-028 failed and BUG-001 was confirmed by reproducing the issue twice (2/2).
 - Long customer-field values were contained within the form without breaking the layout, and Continue opened Checkout: Overview (TC-029).
+- The Sauce Labs Backpack name, quantity 1, and $29.99 price remained consistent between cart and order overview (TC-030).
+- The overview calculation was correct: $29.99 item total + $2.40 tax = $32.39 total (TC-031).
+- Cancel from Checkout: Your Information returned the user to the cart without an error and preserved the selected item (TC-032).
 
 ## Defect Summary
 
