@@ -11,11 +11,11 @@ Manual execution started on 2026-09-18. The results below include only completed
 | Metric | Current Value |
 |---|---:|
 | Planned test cases | 38 |
-| Executed | 22 |
-| Passed | 22 |
+| Executed | 23 |
+| Passed | 23 |
 | Failed | 0 |
 | Blocked | 0 |
-| Not Run | 16 |
+| Not Run | 15 |
 | Confirmed defects | 0 |
 
 ## Test Environment
@@ -51,6 +51,7 @@ Manual execution started on 2026-09-18. The results below include only completed
 - The empty cart page opened successfully without an application error or cart badge (TC-020).
 - Continue Shopping returned the user from the cart to inventory while preserving the selected product and cart badge 1 (TC-021).
 - Selecting Checkout from the cart opened the Checkout: Your Information page (TC-022).
+- Entering valid first name, last name, and postal code opened the Checkout: Overview page (TC-023).
 
 ## Defect Summary
 
